@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845e7d34-fd4e-4fba-9631-9f0148941ac8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/priceminister/account/CustomerAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/priceminister/account/CustomerAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/priceminister/account/CustomerAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/priceminister/account/CustomerAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/priceminister/account/implementation/CustomerAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/priceminister/account/implementation/CustomerAccount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="CustomerAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/priceminister/account/implementation/CustomerAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <state relative-caret-position="252">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,7 +38,7 @@
       <file leaf-file-name="CustomerAccountTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/priceminister/account/CustomerAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="467">
               <caret line="115" column="25" lean-forward="true" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,6 +70,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>widthDrawalAmount</find>
+      <find>withdrawnAmount</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -279,7 +278,7 @@
       <updated>1552849740162</updated>
       <workItem from="1552849743263" duration="1148000" />
       <workItem from="1552864097950" duration="1519000" />
-      <workItem from="1552931780148" duration="10679000" />
+      <workItem from="1552931780148" duration="10907000" />
     </task>
     <servers />
   </component>
@@ -316,7 +315,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13346000" />
+    <option name="totallyTimeSpent" value="13574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="-5" width="1858" height="1085" extended-state="6" />
@@ -332,9 +331,9 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21467099" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21467099" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24169987" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2416397" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Jenkins" order="3" />
       <window_info id="Designer" order="2" />
@@ -525,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/priceminister/account/CustomerAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="467">
           <caret line="115" column="25" lean-forward="true" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/priceminister/account/implementation/CustomerAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
