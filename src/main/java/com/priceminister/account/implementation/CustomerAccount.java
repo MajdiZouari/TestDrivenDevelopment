@@ -10,7 +10,7 @@ public class CustomerAccount implements Account {
 
 	private String client;
 
-	private BigDecimal balance;
+	private volatile BigDecimal balance;
 
 	private BigDecimal withdrawnAmount;
 
@@ -25,7 +25,7 @@ public class CustomerAccount implements Account {
 	}
 
 	//@Override
-	public void add(BigDecimal addedAmount) {
+	public synchronized void add(BigDecimal addedAmount) {
 		// TODO Auto-generated method stub
 
 		balance = balance.add(addedAmount);
@@ -33,7 +33,7 @@ public class CustomerAccount implements Account {
 	}
 
 	//@Override
-	public BigDecimal withdrawAndReportBalance(BigDecimal withdrawnAmount, AccountRule rule) throws IllegalBalanceException {
+	public synchronized BigDecimal withdrawAndReportBalance(BigDecimal withdrawnAmount, AccountRule rule) throws IllegalBalanceException {
 		// TODO Auto-generated method stub
 
 		BigDecimal resultingAccountBalance = balance.subtract(withdrawnAmount);
@@ -45,7 +45,7 @@ public class CustomerAccount implements Account {
 	}
 
 	//@Override
-	public BigDecimal getBalance() {
+	public synchronized BigDecimal getBalance() {
 		// TODO Auto-generated method stub
 		return balance;
 	}
